@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/bg_item_weather_detail">
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <ImageView
+        android:id="@+id/imgWeatherA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+    <ImageView
+        android:id="@+id/imgWeatherB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/txtTemperatureA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/txtTemperatureB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <ImageView
+        android:id="@+id/imgHum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/ic_common_hum"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/txtTemperatureC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"/>
+</LinearLayout>

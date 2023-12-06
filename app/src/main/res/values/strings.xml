@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="celsius_symbol">\" °C\"</string>
+    <string name="km_h">Km/h</string>
+    <string name="time_weather">Time Weather Detail</string>
+    <string name="setting_common_notification">Notifications</string>
+
+    <string name="main_temp">%4.2f °C</string>
+    <string name="main_hum">Humi %5.1f %%</string>
+    <string name="main_visibility">Dew %5.1f Km</string>
+    <string name="main_wind">Wind %5.1f Km/h</string>
+</resources>
